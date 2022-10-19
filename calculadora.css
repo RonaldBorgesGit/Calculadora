@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: auto;
+    background-color: #425068;
+}
+
+body, main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main{
+    height: 500px;
+    width: 400px;
+    background-color: #000000;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #333333;
+}
+
+.tela{
+    width: 80%;
+    height: 10%;
+    padding: 10px;
+    background-color: #228b22;
+    box-shadow: inset 0 0 1em gold;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 20pt;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.teclas{
+    width: 80%;
+    height: 10%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.teclas-botoes{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 22pt;
+    color: #ffffff;
+    background-color: #444444;
+    cursor: pointer;
+}
+
+#c{
+    color: #FF0000;
+}
+
+#parenteses, #porcentagem, #divisao, #multiplicacao,
+#subtracao, #soma{
+    color: #00ff00;
+}
+
+#igual{
+    background-color: #00ff00;
+}
+
+#soma, #subtracao, #divisao{
+    font-size: 34pt;
+}
+
+.teclas-botoes:target{
+    background-color: #555555;
+}
